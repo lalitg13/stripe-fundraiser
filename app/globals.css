@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f4ef;
+  --card: #ffffff;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --line: #e7e5e4;
+  --accent: #0f766e;
+  --accent-ink: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+body {
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent);
+}
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.25rem 1.35rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+  background: #e7e5e4;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+ul.todo {
+  padding-left: 1.2rem;
+}
+
+ul.todo li {
+  margin: 0.35rem 0;
+}

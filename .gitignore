@@ -1,0 +1,35 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# Local SQLite data
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs and OS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem
+Thumbs.db
+
+# Vercel
+.vercel
+
+# TypeScript / test caches
+*.tsbuildinfo
+next-env.d.ts
+.turbo
+.vitest/
